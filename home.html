@@ -2,11 +2,14 @@
 <html>
 <head>
     <title>Temperature Converter</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="home.css">
 </head>
 <body>
+    <center>
     <header>
+        <div class="main">
         <h1>Temperature Converter</h1>
+        </div>
     </header>
 
     <section>
@@ -28,7 +31,7 @@
         <button onclick="convertToFahrenheit()">Convert</button>
         <div id="celsius-output"></div>
     </section>
-
+</center>
     <script>
         function convertToCelsius() {
     var celsiusInput = document.getElementById("celsius-input");
@@ -51,5 +54,6 @@ function convertToFahrenheit() {
 }
 
     </script>
+
 </body>
 </html>
